@@ -1,0 +1,899 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    
+}
+.logo{
+    font-weight: bolder;
+    font-size: 25px;
+    background: #eaeaea;
+    color: #a50b5e;
+    border: 4px solid black;
+    padding: 5px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    padding: 12px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #a50b5e;
+    
+}
+span{
+    color: #a50b5e;
+}
+.main{
+    height: 85vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/burger.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main2{
+    height: 220vh;
+    background: #FFE87C;
+}
+.mainContent{
+    text-align: center;
+    padding-top: 150px;
+}
+.main2Content{
+    padding-top: 65px;
+    padding-left: 10px;
+}
+.main2Content input{
+    margin-left: 550px;
+    border: black;
+    margin-bottom: 90px;
+    margin-top: 110px;
+}
+h3{
+    font-size: 32px;
+    color: #a50b5e;
+    padding-bottom: 37px;
+    font-family: fantasy;
+    
+}
+h1{
+    font-size: 55px;
+    padding-top: 20px;
+    font-weight: bolder;
+    color: beige;
+}
+p{
+    font-size: 23px;
+    padding-top: 40px;
+    color: beige;
+}
+#about{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.about{
+    text-align: center;
+    font-size: 27px;
+    padding-top: 2px;
+}
+.aboutt{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 60px;
+    
+}
+input{
+    margin-top: 60px;
+    background: #eaeaea;
+    border: 0;
+    border-radius: 17px;
+    padding: 27px;
+    cursor: pointer;
+    font-weight: bolder;
+    
+    
+  
+}
+.footer{
+    height: 180px;
+    background: #5e5e5e; 
+}
+.content{
+    padding-top: 25px;
+}
+.footer .content .logo{
+    font-size: 17px;
+    width: 8%;
+    padding: 5px;
+    padding-right: 0;
+    margin: 0 auto;
+}
+.address{
+    padding-top: 10px;
+    text-align: center;
+}
+.number{
+    padding-top: 5px;
+    text-align: center;
+    list-style: none;
+}
+.email{
+    padding-top: 5px;
+    text-align: center;
+}
+.line{
+    width: 100%;
+    border: 1px solid #a50b5e;
+    margin-top: 7px;
+}
+.rights{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* menu page */
+.main3{
+    background: #FFE87C;
+}
+.main3Content{
+    display: flex;
+    padding-top: 15px;
+}
+.main4Content{
+    display: flex;
+}
+.main3 h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+}
+.main3 h3{
+    padding-bottom: 5px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.main4 h3{
+    margin-left: 30px;
+}
+h4{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.menu{
+    font-size: 17px;
+    padding-top: 4px;
+}
+#menu{
+    margin-left: 530px;
+}
+.col5 #menu{
+    margin-left: 516px;
+}
+.col2 .menu, .col3 .menu{
+    font-size: 15px;
+}
+.col7 .menu{
+    font-size: 16px;
+}
+.partition1{
+    height: 450px;
+    width: 50%;
+}
+.partition2{
+    height: 550px;
+    width: 50%;
+    padding-top: 5px;
+}
+.partition3{
+    height: 500px;
+    width: 50%;
+    background: #FFE87C;
+}
+.partition4{
+    height: 500px;
+    width: 50%;
+    background: #FFE87C;
+    padding-top: 35px;
+}
+.col{
+    height: 86px;
+    width: 95%;
+    margin-left: 10px;
+    
+}
+.col1{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col2{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col3{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col4{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col5{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col6{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col7{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col8{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col9{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col10{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col11{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col12{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col13{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col14{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col15{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col16{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col17{
+    width: 100%;
+    height: 60px;
+    background: #eaeaea;
+}
+.col .menu{
+    color: black;
+}
+
+/* Gallery page code */
+.main5{
+    background: #FFE87C;
+    height: 150vh;
+    padding-top: 2px;
+}
+.row{
+    display: flex;
+    margin: 10px;
+    padding-top: 12px;
+}
+.column1{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/kebab.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column2{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/bistro\ salad.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column3{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/lemonade.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column4{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/peri\ peri.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column5{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/wings2.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column6{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/pina\ colada.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column7{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/burger.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column8{
+    height: 200px;
+    width: 25%;
+    background: url(../img/seafood.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column9{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/chapman.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column10{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/bolognese.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column11{
+    height: 200px;
+    width: 25%;
+    margin-right: 10px;
+    background: url(../img/salad2.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column12{
+    height: 200px;
+    width: 25%;
+    background: url(../img/soft\ drinks.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column13{
+    height: 200px;
+    width: 25%;
+    background: url(../img/catfish.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column14{
+    height: 200px;
+    width: 25%;
+    background: url(../img/orange\ juice.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column15{
+    height: 200px;
+    width: 25%;
+    background: url(../img/suya.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.column16{
+    height: 200px;
+    width: 25%;
+    background: url(../img/salad.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+/* RESPONSIVE CODE */
+
+
+
+@media screen and (max-width: 480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+    }
+    .logo{
+        width: 25%;
+        font-size: 16px;
+        padding: 4px;
+    }
+    .nav ul li{
+        padding: 7px 2px;
+        margin: 0 auto;
+    }
+    .nav ul li a{
+        font-size: 17px;
+    }
+    .main{
+        height: 80vh;
+    }
+    .mainContent{
+        padding-top: 70px;
+    }
+    h3{
+        font-size: 24px;
+        padding-bottom: 25px;
+        padding-top: 20px;
+    }
+    h1{
+        font-size: 37px;
+        padding-top: 2px;
+        padding-bottom: 12px;
+    }
+    p{
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    input{
+        margin-top: 90px;
+        font-size: 9px;
+        padding: 14px;
+    }
+    .footer{
+        height: 240px;
+    }
+    .content{
+        padding-top: 30px;
+    }
+    .footer .content .logo{
+        font-size: 15px;
+        width: 24%;
+        padding: 3px;
+        margin-top: 5px;
+    }
+    .address, .number, .email, .rights{
+        font-size: 12px;
+    }
+    .line{
+        margin-top: 15px;
+    }
+    .rights{
+        padding-top: 15px;
+    }
+    /* about us responsive code */
+    
+    .main2{
+        height: 250vh;
+    }
+    .container2{
+        margin-left: 12px;
+    }
+    .aboutt{
+        text-align: left;
+        font-size: 19px;
+        padding-top: 15px;
+    }
+    .about{
+        text-align: left;
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    #about{
+        text-align: left;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main2Content input{
+        margin-top: 45px;
+        margin-left: 7px;
+        padding: 18px;
+        font-size: 12px;
+    } 
+     /* menu responsive code */
+    .main3{
+        width: 100%;
+    }
+    .main3 h2{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .main3 h3, .main4 h3{
+        font-size: 19px;
+        margin-left: 40px;
+        padding-top: 7px;
+    }
+    .main4 h3{
+        padding-top: 100px;
+        padding-bottom: 7px;
+    }
+    .main3Content{
+        justify-content: center;
+    }
+    .main3Content, .main4Content{
+        flex-direction: column;
+    }
+    h4{
+        font-size: 17px;
+    }
+    .partition1, .partition2, .partition3, .partition4{
+        width: 100%;
+    }
+    .partition1{
+        height: 505px;
+    }
+    .partition4{
+        padding-top: 0px;
+    }
+    .menu{
+        font-size: 15px;
+        padding-top: 1px;
+    } 
+    #menu{
+        margin-left: 240px;
+    }
+    .col5 #menu{
+        margin-left: 230px;
+    }
+    .col{
+        width: 90%;
+        margin-left: 12px;
+    }
+    .col2 .menu{
+        font-size: 13px;
+    }
+    .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .col13, .col14, .col15, .col16, .col17{
+        width: 100%;
+        height: 50px;
+    }
+
+
+    /* gallery responsive code */
+    .row{
+        flex-direction: column;
+        padding-top: 5px;
+    }
+    .column1, .column2, .column3, .column4{
+        width: 100%;
+        height: 250px;
+        margin-right: 12px;
+        margin-top: 25px;
+    }
+    .column5, .column6, .column7, .column8{
+        width: 100%;
+        height: 250px;
+        margin-top: 25px;
+    }
+    .column9, .column10, .column11, .column12{
+        width: 100%;
+        height: 250px;
+        margin-top: 25px;
+    }
+    .column13, .column14, .column15, .column16{
+        width: 100%;
+        height: 250px;
+        margin-top: 25px;
+    }
+    .main5{
+        height: 720vh;
+    }
+} 
+/* @media screen and (max-width: 700px){
+    .container{
+        flex-direction: column;
+        height: 90px;
+    }
+    .logo{
+        width: 21%;
+        padding: 6px;
+        font-size: 22px;
+    }
+    .nav ul li{
+        margin: 0 auto;
+        padding: 9px 2px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .nav ul li a{
+        font-size: 20px;
+    }
+    .mainContent{
+        padding-top: 70px;
+    }
+    h3{
+        font-size: 27px;
+        padding-bottom: 15px;
+    }
+    h1{
+        font-size: 48px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    p{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    input{
+        margin-top: 150px;
+    }
+    .footer{
+        height: 220px;
+    }
+    .footer .content .logo{
+        width: 17%;
+        font-size: 18px;
+    }
+    .address, .number, .email, .rights{
+        font-size: 17px;
+    }
+    .number{
+        text-decoration: none;
+    }
+    .line{
+        margin-top: 15px;
+    }
+    .rights{
+        padding-top: 15px;
+    }
+
+    /* about us responsive code */
+    .main2{
+        height: 370vh;
+    }
+    .main2Content{
+        padding-top: 80px;
+    }
+    .main2Content #about, .container2 #about{
+        color: black;
+    }
+    .aboutt{
+        font-size: 28px;
+    }
+    .about{
+        font-size: 28px;
+    }
+    #about{
+        text-align: left;
+        font-size: 25px;
+    }
+    .main2Content input{
+        margin-left: 160px;
+        padding: 28px;
+        font-size: 16px;
+    }
+    .container2{
+        margin-left: 10px;
+    } */
+
+    /* menu responsive code */
+    /* .main3Content, .main4Content{
+        flex-direction: column;
+    }
+    .partition1, .partition2, .partition3, .partition4{
+        width: 100%;
+    }
+    .col{
+        width: 85%;
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+    .col .menu{
+        color: black;
+    }
+    .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .col13, .col14, .col15, .col16, .col17{
+        width: 100%;
+        height: 47px;
+    }
+    .partition2{
+        padding-top: 15px;
+    }
+    .partition3{
+        padding-top: 50px;
+    }
+    .partition4{
+    padding-top: 0px; 
+    }
+    .main3 h2{
+        font-size: 30px;
+    }
+    .main3Content h3{
+        margin-left: 65px;
+        font-size: 27px;
+    }
+    .main4Content h3{
+        margin-left: 65px;
+        font-size: 27px;
+    } 
+    h4{
+        font-size: 22px;
+        margin-left: 8px;
+    }
+    .menu{
+        font-size: 15px;
+        padding-top: 1px;
+        margin-left: 10px;
+    }
+    #menu{
+        margin-left: 390px;
+        margin-top: 0px;
+    } 
+    .col2 .menu{
+        font-size: 15px;
+    }
+    .col5 #menu{
+        margin-left: 380px;
+    }   */
+    /* gallery page responsive code */
+    /* .main5{
+        padding-top: 65px;
+        height: 370vh;
+    }
+}  */
+/* @media screen and (min-width: 1024px){
+    .container{
+        height: 70px;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    .nav ul li{
+        padding: 35px;
+    }
+    .nav ul li a{
+        font-size: 27px;
+    }
+    .main{
+        height: 80vh;
+    }
+    .mainContent{
+        padding-top: 275px;
+    }
+    .mainContent h3{
+        font-size: 30px;
+    }
+    .mainContent h1{
+        font-size: 72px;
+    }
+    .mainContent p{
+        font-size: 33px;
+    }
+    input{
+        font-size: 21px;
+        margin-top: 125px;
+        padding: 18px;
+    }
+    .footer{
+        height: 240px;
+    }
+    .footer .content .logo{
+        font-size: 27px;
+        width: 15%;
+    }
+    .address, .number, .email, .rights{
+        font-size: 21px;
+    }
+    .line{
+        margin-top: 20px;
+    }
+    .rights{
+        padding-top: 17px;
+    }  */
+    /* about us responsive code */
+    /* .main2{
+        height: 100vh;
+    }
+    .main2Content{
+        padding-top: 150px;
+    }
+    .aboutt{
+        font-size: 55px;
+        font-family: fantasy;
+    }
+    .about{
+        font-size: 40px;
+        padding-top: 25px;
+        font-family: cursive;
+    }
+    #about{
+        font-size: 34px;
+        font-family: cursive;
+    }
+    .main2Content input{
+        margin-left: 410px;
+        font-size: 23px;
+        padding: 30px;
+    } */
+    /* menu code */
+    /* .main3Content, .main4Content{
+        flex-direction: column;
+    }
+    .partition1, .partition2, .partition3, .partition4{
+        width: 100%;
+    }
+    .partition1{
+        height: 51vh;
+    }
+    .partition3{
+        height: 45vh;
+    }
+    .main3 h2{
+        font-size: 41px;
+    }
+    .main3Content h3{
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .main3Content h4, .main4Content h4{
+        font-size: 25px;
+    }
+    .main4Content h3{
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .col{
+        width:89vh;
+        margin-left: 45px;
+    }
+    #menu{
+        margin-left: 840px;
+    }
+    .menu{
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    .col2 .menu{
+        font-size: 16px;  */
+    /* } */
+    /* gallery page */
+    /* .main5{
+        padding-top: 120px;
+        height: 95vh;
+    }
+}  */
